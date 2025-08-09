@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background: #222;
+}
+.telegram-link {
+    margin-right: auto;
+    color: cyan;
+    text-decoration: none;
+    font-size: 14px;
+}
+#searchBar {
+    padding: 8px;
+    width: 200px;
+    font-size: 14px;
+}
+#channelGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.channel {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.channel img {
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+.channel-name {
+    margin-top: 5px;
+    font-size: 12px;
+}
